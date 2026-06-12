@@ -10,7 +10,7 @@ function PhishingAnalyzer() {
   const analyzeEmail = async () => {
 
     const res = await api.post(
-      "/phishing",
+      "https://cyberintel-ai.onrender.com/phishing",
       {
         email
       }
