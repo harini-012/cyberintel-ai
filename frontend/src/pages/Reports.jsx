@@ -16,7 +16,7 @@ function Reports() {
 
     const response =
       await axios.get(
-        "http://127.0.0.1:8000/reports"
+        "https://cyberintel-ai.onrender.com/reports"
       );
 
     setReports(
@@ -48,7 +48,7 @@ function Reports() {
             >
 
               <a
-                href={`http://127.0.0.1:8000/reports/${report}`}
+                href={`https://cyberintel-ai.onrender.com/reports/${report}`}
                 target="_blank"
                 rel="noreferrer"
               >
